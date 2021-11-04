@@ -1,6 +1,6 @@
-var Chateaushi = artifacts.require(“Chateaushi”);
+var Chateaushi = artifacts.require("Chateaushi");
 
 module.exports = function(deployer) {
-    deployer.deploy(Chateaushi, “hello”);
+    deployer.deploy(Chateaushi, 10000);
 };
 

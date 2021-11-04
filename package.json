@@ -6,6 +6,7 @@
   "author": "7imon7ays",
   "license": "ISC",
   "dependencies": {
+    "@openzeppelin/contracts": "^4.3.2",
     "@truffle/hdwallet-provider": "^1.5.1",
     "pify": "^5.0.0"
   }
