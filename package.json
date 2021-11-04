@@ -1,0 +1,12 @@
+{
+  "name": "chateaushi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "chateaushi.sol",
+  "author": "7imon7ays",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.5.1",
+    "pify": "^5.0.0"
+  }
+}
