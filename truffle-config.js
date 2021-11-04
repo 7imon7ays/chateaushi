@@ -60,13 +60,6 @@ module.exports = {
         },
         network_id: 5,
         gas: 10000
-      },
-      mainnet: {
-        provider: function() {
-          return new HDWalletProvider(mnemonic, "https://mainnet.infura.io/v3/0c382b0ada974d3aa885081101c8a0a9")
-        },
-        network_id: 1,
-        gas: 15000000
       }
   },
 
