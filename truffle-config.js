@@ -51,8 +51,14 @@ module.exports = {
         provider: function() {
           return new HDWalletProvider(mnemonic, "https://kovan.infura.io/v3/0c382b0ada974d3aa885081101c8a0a9")
         },
-        network_id: 3,
-        gas: 4000000      //make sure this gas allocation isn't over 4M, which is the max
+        network_id: 42,
+        gas: 12500000
+      },
+      goerli: {
+        provider: function() {
+          return new HDWalletProvider(mnemonic, "https://goerli.infura.io/v3/0c382b0ada974d3aa885081101c8a0a9")
+        },
+        network_id: 5,
       }
   },
 
